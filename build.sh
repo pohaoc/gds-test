@@ -1,0 +1,1 @@
+g++ -Wall -I /usr/local/cuda/include/  -I /usr/local/cuda/targets/x86_64-linux/include/ -std=c++11 testfile.cc -o testfile -L /usr/local/cuda/targets/x86_64-linux/lib/ -lcufile -L /usr/local/cuda/lib64/stubs -lcuda -Bstatic -L /usr/local/cuda/lib64/ -lcudart_static -lrt -lpthread -ldl -Bdynamic -lrt -ldl

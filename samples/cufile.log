@@ -1,0 +1,4 @@
+ 22-10-2022 21:28:21:12 [pid=2425 tid=2425] ERROR  cufio-fs:221 enable use_mq for scsi_mod
+ 22-10-2022 21:28:21:12 [pid=2425 tid=2425] ERROR  cufio-fs:221 enable use_mq for scsi_mod
+ 22-10-2022 21:28:21:12 [pid=2425 tid=2425] NOTICE  cufio-fs:408 dumping volume attributes: DEVNAME:/dev/sda1,ID_FS_TYPE:ext4,ID_FS_USAGE:filesystem,UDEV_PCI_BRIDGE:0000:00:03.0,fsid:de1e24fbc455c8590x,numa_node:-1,queue/logical_block_size:4096,
+ 22-10-2022 21:28:21:12 [pid=2425 tid=2425] NOTICE  cufio:1040 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
