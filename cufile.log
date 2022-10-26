@@ -1,0 +1,5 @@
+ 26-10-2022 07:12:09:798 [pid=15998 tid=15998] ERROR  cufio-fs:204 NVMe Driver not registered with nvidia-fs!!!
+ 26-10-2022 07:12:09:798 [pid=15998 tid=15998] ERROR  cufio-fs:204 NVMe Driver not registered with nvidia-fs!!!
+ 26-10-2022 07:12:09:798 [pid=15998 tid=15998] NOTICE  cufio-fs:408 dumping volume attributes: DEVNAME:/dev/nvme0n1,ID_FS_TYPE:ext4,ID_FS_USAGE:filesystem,UDEV_PCI_BRIDGE:0000:00:04.0,device/transport:pcie,fsid:f744fde7be1344450x,numa_node:0,queue/logical_block_size:4096,wwid:nvme.1ae0-6e766d655f63617264-6e766d655f63617264-00000001,
+ 26-10-2022 07:12:09:798 [pid=15998 tid=15998] NOTICE  cufio:1040 cuFileHandleRegister GDS not supported or disabled by config, using cuFile posix read/write with compat mode enabled
+ 26-10-2022 07:12:09:979 [pid=15998 tid=15998] ERROR  0:106 cuDeviceGet failed with error 4

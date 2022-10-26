@@ -28,14 +28,13 @@ int main(int argc, char *argv[]){
 	CUfileDescr_t cf_descr;
 	CUfileHandle_t cf_handle;
 
-	if(argc < 4){
+	if(argc < 3){
 		std::cerr << argv[0] << " readfile writefile gpuid " << std::endl;
 		exit(1);
 	}
 
 	TESTFILE = argv[1];
-	TESTWRITEFILE = argv[2];
-	check_cudaruntimecall(cudaSetDevice(atoi(argv[3])));
+	check_cudaruntimecall(cudaSetDevice(atoi(argv[2])));
 
 	ret = open(TESTFILE, O_RDONLY | O_DIRECT);
 	if(ret < 0){
@@ -88,18 +87,6 @@ int main(int argc, char *argv[]){
 	}while (fileOff < size);
 
 	std::cout << "Total chunks read : " << count  << std::endl;
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 error1:
